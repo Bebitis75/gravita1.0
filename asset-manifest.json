@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Gravita/static/css/main.42686d4c.css",
+    "main.js": "/Gravita/static/js/main.69aad5fa.js",
+    "static/media/Software.jpg": "/Gravita/static/media/Software.8d7db7a272551fdaff35.jpg",
+    "static/media/Management.jpg": "/Gravita/static/media/Management.72a17d149ba2abd49937.jpg",
+    "static/media/Counseling.jpg": "/Gravita/static/media/Counseling.a053acc220434b9562cb.jpg",
+    "static/media/Warehouse.jpg": "/Gravita/static/media/Warehouse.aef2b391353e05d6a108.jpg",
+    "static/media/Experience.jpg": "/Gravita/static/media/Experience.87837059c319c6378f7a.jpg",
+    "static/media/Contact1.jpg": "/Gravita/static/media/Contact1.474a1975a3195d65e985.jpg",
+    "index.html": "/Gravita/index.html",
+    "main.42686d4c.css.map": "/Gravita/static/css/main.42686d4c.css.map",
+    "main.69aad5fa.js.map": "/Gravita/static/js/main.69aad5fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42686d4c.css",
+    "static/js/main.69aad5fa.js"
+  ]
+}
