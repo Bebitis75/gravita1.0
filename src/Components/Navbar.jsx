@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from 'react-router-dom';
 import menu from "../Icons/menu.png";
 import close from "../Icons/close.png";
 
@@ -7,7 +6,8 @@ import close from "../Icons/close.png";
 export default function NavBar() {
    
 let Links = [
-    { name: "Inicio", link: "/" }, // Use Link for navigation
+    { name: "Inicio", link: "/" }, 
+    { name: "Nuestras Soluciones", link: "/" },
     { name: "Sobre nosotros", link: "/" },
     { name: "Contactanos", link: "/contact"},
   ];
@@ -23,7 +23,7 @@ let Links = [
             <div className="md:flex items-center justify-between py-4 ml-10 md:px-10 px-7 ">
                 <div className="flex items-center">
                     <span className="text-3xl font-quicksand">
-                        Gravita
+                        Gravitas
                     </span>
                 </div>
                 <div className="text-2xl absolute right-8 top-6 cursor-pointer md:hidden" onClick={toggleMenu}>

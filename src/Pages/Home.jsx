@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import NavBar from "../Components/Navbar";
 import Warehouse from "../Images/Warehouse.jpg";
 import Counseling from "../Images/Counseling.jpg";
@@ -34,7 +33,7 @@ export default function Homepage() {
                     <div className="w-full h-full bg-black-300 opacity-98 absolute shadow-md flex justify-center items-center overflow-hidden text-wrap">
                         <div className="w-1/2 h-64 text-wrap absolute right-10">
                             <h1 className="lg:text-4xl md:text-2xl font-quicksand font-semibold p-8 text-center text-white contrast-300 backdrop-blur-sm bg-gray/10">
-                                Construyendo el futuro del almacenamiento: ¡Bienvenido a Gravita, donde cada nave es un universo de posibilidades!
+                                Construyendo el futuro del almacenamiento: ¡Bienvenido a Gravitas, donde cada nave es un universo de posibilidades!
                             </h1>
                         </div>
                     </div>
