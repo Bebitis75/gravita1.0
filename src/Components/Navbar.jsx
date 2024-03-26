@@ -6,9 +6,8 @@ import close from "../Icons/close.png";
 export default function NavBar() {
    
 let Links = [
-    { name: "Inicio", link: "/" }, 
-    { name: "Nuestras Soluciones", link: "/" },
-    { name: "Sobre nosotros", link: "/" },
+    { name: "Nuestras Soluciones", link: "/soluciones" },
+    { name: "Sobre nosotros", link: "/sobrenosotros" },
     { name: "Contactanos", link: "/contact"},
   ];
     let [open, setOpen] = useState(false);
@@ -22,9 +21,9 @@ let Links = [
         <header className="bg-white top-0 w-full sticky z-10">
             <div className="md:flex items-center justify-between py-4 ml-10 md:px-10 px-7 ">
                 <div className="flex items-center">
-                    <span className="text-3xl font-quicksand">
+                    <a href="/" className="text-3xl font-quicksand">
                         Gravitas
-                    </span>
+                    </a>
                 </div>
                 <div className="text-2xl absolute right-8 top-6 cursor-pointer md:hidden" onClick={toggleMenu}>
                     <span>

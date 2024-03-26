@@ -1,4 +1,5 @@
 import NavBar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import Warehouse from "../Images/Warehouse.jpg";
 import Counseling from "../Images/Counseling.jpg";
 import Experience from "../Images/Experience.jpg";
@@ -26,7 +27,7 @@ export default function Homepage() {
     
 
     return (
-        <div className="flex flex-col w-full h-auto">
+        <div id="inicio" className="flex flex-col w-full h-auto">
             <NavBar />
             <div className="w-full" style={{ height: '711px' }}>
                 <div className="h-full bg-auto bg-center relative" style={{ backgroundImage: `url(${Warehouseimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
@@ -40,7 +41,7 @@ export default function Homepage() {
                 </div>
             </div>
 
-            <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white justify-center items-center gap-12" style={{ height: '711px' }} >
+            <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white  justify-center items-center gap-12" style={{ height: '711px' }} >
                 <div className="mb-8">
                     <h1 className="text-4xl font-quicksand">Nuestros Servicios</h1>
                 </div>
@@ -91,11 +92,11 @@ export default function Homepage() {
 
                 </div>
             </div>
-            <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white justify-center items-center gap-12" style={{ height: '711px' }} >
-
+            <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white justify-center items-center gap-12" style={{ height: '780px' }} >
+               
             </div>
-
-
+          
+            <Footer/>
         </div>
     );
 }
