@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import NavBar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import Warehouse from "../Images/Warehouse.jpg";
 import Counseling from "../Images/Counseling.jpg";
 import Experience from "../Images/Experience.jpg";
@@ -27,21 +27,21 @@ export default function Homepage() {
     
 
     return (
-        <div className="flex flex-col w-full h-auto">
+        <div id="inicio" className="flex flex-col w-full h-auto">
             <NavBar />
             <div className="w-full" style={{ height: '711px' }}>
                 <div className="h-full bg-auto bg-center relative" style={{ backgroundImage: `url(${Warehouseimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="w-full h-full bg-black-300 opacity-98 absolute shadow-md flex justify-center items-center overflow-hidden text-wrap">
                         <div className="w-1/2 h-64 text-wrap absolute right-10">
                             <h1 className="lg:text-4xl md:text-2xl font-quicksand font-semibold p-8 text-center text-white contrast-300 backdrop-blur-sm bg-gray/10">
-                                Construyendo el futuro del almacenamiento: ¡Bienvenido a Gravita, donde cada nave es un universo de posibilidades!
+                                Construyendo el futuro del almacenamiento: ¡Bienvenido a Gravitas, donde cada nave es un universo de posibilidades!
                             </h1>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white justify-center items-center gap-12" style={{ height: '711px' }} >
+            <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white  justify-center items-center gap-12" style={{ height: '711px' }} >
                 <div className="mb-8">
                     <h1 className="text-4xl font-quicksand">Nuestros Servicios</h1>
                 </div>
@@ -92,11 +92,11 @@ export default function Homepage() {
 
                 </div>
             </div>
-            <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white justify-center items-center gap-12" style={{ height: '711px' }} >
-
+            <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white justify-center items-center gap-12" style={{ height: '780px' }} >
+               
             </div>
-
-
+          
+            <Footer/>
         </div>
     );
 }
