@@ -40,7 +40,7 @@ export default function Form() {
     <div className="flex justify-center items-center w-full h-screen">
       <form ref={form} onSubmit={sendEmail} className="flex flex-col md:flex-row justify-center items-center gap-4 w-2/3">
         <div className="text-5xl w-full mb-4 md:mb-36">
-          <h1 className="font-quicksand text-white bg-gray/10">Contact us</h1>
+          <h1 className="font-pirulen text-white bg-gray/10">Contactanos</h1>
         </div>
         <div className="flex flex-col gap-2 w-full md:w-1/2 bg-gray-100 p-12 rounded-md shadow-md">
           <div className="h-12 w-full">

@@ -21,7 +21,7 @@ let Links = [
         <header className="bg-white top-0 w-full sticky z-10">
             <div className="md:flex items-center justify-between py-4 ml-10 md:px-10 px-7 ">
                 <div className="flex items-center">
-                    <a href="/" className="text-3xl font-quicksand">
+                    <a href="/" className="text-3xl font-pirulen">
                         Gravitas
                     </a>
                 </div>
@@ -36,7 +36,7 @@ let Links = [
                     {Links.map((link) => (
                         <li key={link.name} className="md:ml-6 mr-6 h-10 px-4 py-2 items-center text-lg md:my-0 my-7 hover:bg-slate-100 rounded-md md:">
                             <a
-                                className="transform duration-300 hover:-translate-y-6 hover:scale-110 hover:text-gray-500 font-quicksand"
+                                className="transform duration-300 hover:-translate-y-6 hover:scale-110 hover:text-gray-500 font-pirulen text-sm"
                                 href={link.link}
                             >
                                 {link.name}
