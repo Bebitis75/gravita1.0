@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
           quicksand: ["Quicksand", "sans-serif"],
+          pirulen: ['Pirulen', 'sans-serif'],
       },
     },
   },
