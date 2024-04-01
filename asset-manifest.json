@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/gravita1.0/static/css/main.278fbdb3.css",
-    "main.js": "/gravita1.0/static/js/main.058e4a3b.js",
-    "static/media/Software.jpg": "/gravita1.0/static/media/Software.8d7db7a272551fdaff35.jpg",
-    "static/media/Management.jpg": "/gravita1.0/static/media/Management.72a17d149ba2abd49937.jpg",
-    "static/media/Counseling.jpg": "/gravita1.0/static/media/Counseling.a053acc220434b9562cb.jpg",
-    "static/media/Warehouse.jpg": "/gravita1.0/static/media/Warehouse.aef2b391353e05d6a108.jpg",
-    "static/media/Experience.jpg": "/gravita1.0/static/media/Experience.87837059c319c6378f7a.jpg",
-    "static/media/Contact3.jpg": "/gravita1.0/static/media/Contact3.bfe525e77c45245edf7f.jpg",
-    "static/media/technical-support.png": "/gravita1.0/static/media/technical-support.5c97b226b85e8065f301.png",
-    "index.html": "/gravita1.0/index.html",
-    "main.278fbdb3.css.map": "/gravita1.0/static/css/main.278fbdb3.css.map",
-    "main.058e4a3b.js.map": "/gravita1.0/static/js/main.058e4a3b.js.map"
+    "main.css": "/Gravitas/static/css/main.278fbdb3.css",
+    "main.js": "/Gravitas/static/js/main.ca6abe58.js",
+    "static/media/Software.jpg": "/Gravitas/static/media/Software.8d7db7a272551fdaff35.jpg",
+    "static/media/Management.jpg": "/Gravitas/static/media/Management.72a17d149ba2abd49937.jpg",
+    "static/media/Counseling.jpg": "/Gravitas/static/media/Counseling.a053acc220434b9562cb.jpg",
+    "static/media/Warehouse.jpg": "/Gravitas/static/media/Warehouse.aef2b391353e05d6a108.jpg",
+    "static/media/Experience.jpg": "/Gravitas/static/media/Experience.87837059c319c6378f7a.jpg",
+    "static/media/Contact3.jpg": "/Gravitas/static/media/Contact3.bfe525e77c45245edf7f.jpg",
+    "static/media/technical-support.png": "/Gravitas/static/media/technical-support.5c97b226b85e8065f301.png",
+    "index.html": "/Gravitas/index.html",
+    "main.278fbdb3.css.map": "/Gravitas/static/css/main.278fbdb3.css.map",
+    "main.ca6abe58.js.map": "/Gravitas/static/js/main.ca6abe58.js.map"
   },
   "entrypoints": [
     "static/css/main.278fbdb3.css",
-    "static/js/main.058e4a3b.js"
+    "static/js/main.ca6abe58.js"
   ]
 }
